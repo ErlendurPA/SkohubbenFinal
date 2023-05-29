@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301 41.482">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #333;
+      }
+
+      .cls-6 {
+        letter-spacing: -.017em;
+      }
+
+      .cls-3 {
+        fill: #fbb035;
+      }
+
+      .cls-5, .cls-4 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 35px;
+      }
+    </style>
+  </defs>
+  <g id="RingBase">
+    <rect class="cls-1" x=".5" y=".5" width="300" height="40" rx="18.883" ry="18.883"/>
+  </g>
+  <g id="Gul">
+    <rect class="cls-3" x=".5" y=".5" width="150" height="40" rx="19.446" ry="19.446"/>
+  </g>
+  <g id="Svart">
+    <rect class="cls-2" x="100.5" y=".5" width="200" height="40" rx="18.883" ry="18.883"/>
+  </g>
+  <g id="Sko">
+    <text class="cls-5" transform="translate(21.659 32.733)"><tspan x="0" y="0">S</tspan><tspan class="cls-6" x="17.255" y="0">K</tspan><tspan x="35.63" y="0">O</tspan></text>
+  </g>
+  <g id="Hubben">
+    <text class="cls-4" transform="translate(138.412 32.581)"><tspan x="0" y="0">HUBBEN</tspan></text>
+  </g>
+</svg>

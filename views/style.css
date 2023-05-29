@@ -1,0 +1,568 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+}
+
+img {
+  cursor: pointer;
+}
+
+/*
+
+||| Everything in header |||
+vvv                      vvv
+
+*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 8vw;
+}
+
+.logoContainer {
+  padding: 0%;
+  margin: 0%;
+  display: block;
+  width: 28vw;
+}
+
+.logo {
+  padding: 0%;
+  margin: 0%;
+  display: block;
+  width: 70%;
+  height: 70%;
+}
+
+.searchAndFilter {
+  /*container for search and filter*/
+  padding: 0%;
+  margin: 0%;
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 28vw;
+  height: 100%;
+}
+
+.filter {
+  padding: 0%;
+  margin: 0%;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.brands {
+  cursor: pointer;
+}
+
+.cartUserSearch {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 28vw;
+  height: 100%;
+}
+
+.search {
+  padding: 0%;
+  margin: 0%;
+  display: block;
+  border-radius: 0%;
+  padding: 10px;
+  width: 30%;
+  height: 20%;
+  font-size: xx-large;
+}
+
+.cart {
+  padding: 0%;
+  margin: 0%;
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+#cartCounter {
+  padding: 0%;
+  margin: 0%;
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+}
+
+.userPage {
+  padding: 0%;
+  margin: 0%;
+  display: block;
+  background-color: none;
+  width: 50px;
+  height: 50px;
+}
+
+/*
+
+||| Shoe menu and ad |||
+vvv                  vvv
+
+*/
+
+.adcontainer {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5vw;
+  padding: 0%;
+}
+
+.ad {
+  display: block;
+  width: 1000px;
+  height: 250px;
+}
+
+/*
+
+||| Shoes |||
+vvv       vvv
+
+*/
+
+.shopBack {
+  /*container for everything between header and footer*/
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.selectBack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  margin: 0%;
+  padding: 0%;
+  border: none;
+}
+
+.products:hover {
+  background-color: gray;
+}
+
+.products:hover .selector {
+  width: 325px;
+  height: 325px;
+  margin: 5px;
+}
+
+.products:hover .shop-item-image {
+  width: 325px;
+  height: 325px;
+}
+
+.selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0%;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 375px;
+  height: 50px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.shop-item-image {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*
+
+#product1 {}
+
+#product2 {}
+
+#product3 {} 
+
+*/
+
+/* 
+|||               |||
+|||   User Page   |||
+vvv               vvv
+ */
+
+.pfpdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 0%;
+  padding: 0%;
+  border: 5px solid black;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.moreInfo {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.bothNames {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.loginDetails {
+  display: flex;
+  width: 20vw;
+  height: 2vw;
+}
+
+#listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*
+
+|||        |||
+||| Footer |||
+vvv        vvv
+
+*/
+
+footer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gray;
+  margin: 0%;
+  margin-top: 10%;
+  padding: 0%;
+  width: 100%;
+  height: 8vw;
+}
+
+.footMenu {
+  display: block;
+}
+
+/*
+
+|||                   |||
+|||   Selected page   |||
+|||                   |||
+vvv                   vvv
+
+*/
+.slideAndCustomise {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 40%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.shoeTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 15%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.slideShow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.slideSide {
+  width: 10vw;
+  height: 10vw;
+}
+
+.slideMid {
+  width: 15vw;
+  height: 15vw;
+}
+
+.sliders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 0 white;
+  width: 40px;
+  height: 50px;
+  margin: 0%;
+  padding: 0%;
+  cursor: pointer;
+}
+
+.priceSize {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 16%;
+  height: 90%;
+  margin: 0%;
+  padding: 0%;
+  border: 2px solid black;
+}
+
+#xshoePrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.sizes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*
+|||                   |||
+||| Shoppingcart page |||
+|||                   |||
+vvv                   vvv
+*/
+
+.bankAndListContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 70%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 65%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  border: 2px solid black;
+}
+
+.shoppinglistTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 15%;
+  margin: 0%;
+  padding: 0%;
+}
+
+#cart-total-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+#cart-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.cart-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.cart-item-image {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+}
+
+.cart-item-title {
+  display: flex;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+}
+
+.cart-item-price {
+  display: flex;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+}
+
+.cart-item-amount {
+  margin: 0%;
+  padding: 0%;
+}
+
+.amount-changers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.terminal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 16%;
+  height: 80%;
+  margin: 0%;
+  padding: 0%;
+  border: 2px solid black;
+}
+
+#payButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  margin: 0%;
+  padding: 0%;
+  background-color: green;
+  font-style: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 200px;
+}
