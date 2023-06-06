@@ -135,7 +135,7 @@ app.post("/cart", async (req, res) => {
 });
 
 
-// var port = process.env.PORT || 3000;
+var port = process.env.PORT || 22227;
 app.listen(port, function () {
 	console.log("Server Has Started!");
 }); 
