@@ -40,6 +40,8 @@ app.get('/', (req, res) => {
   console.log(req.session);
 });
 
-app.use(express.static(__dirname + '/skohubbenCode'));
+app.use(express.static(__dirname + '/views'));
+
+
 
 
