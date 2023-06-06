@@ -113,7 +113,7 @@ app.get("/logout", function (req, res) {
 
 import { MongoClient } from "mongodb";
 app.post("/cart", async (req, res) => {
-	const uri = "mongodb://127.0.0.1:27017/skohubben"
+	const uri = "mongodb+srv://Erlend:adminPass@erlendcluster.danzgpe.mongodb.net/?authMechanism=DEFAULT"
 	const client = new MongoClient(uri);
 
 	const database = client.db("skohubben");
@@ -135,7 +135,7 @@ app.post("/cart", async (req, res) => {
 });
 
 
-var port = process.env.PORT || 3000;
+// var port = process.env.PORT || 3000;
 app.listen(port, function () {
 	console.log("Server Has Started!");
 }); 
