@@ -30,8 +30,8 @@ const session = require('express-session');
 const app = express();
 const path = require('path');
 
-app.listen(3000, () => {
-  console.log('Listening on port 3000');
+app.listen(22227, () => {
+  console.log('Listening on port 22227');
 }
 );
 
