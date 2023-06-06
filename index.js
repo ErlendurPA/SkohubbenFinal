@@ -36,7 +36,7 @@ app.listen(22227, () => {
 );
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + '/skohubbenCode/shopHome.html'));
+  res.sendFile(path.join(__dirname + '/views/shopHome.html'));
   console.log(req.session);
 });
 
