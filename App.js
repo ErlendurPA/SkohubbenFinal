@@ -10,7 +10,7 @@ var express = require("express"),
 const User = require("./model/User");
 var app = express();
 
-mongoose.connect("mongodb+srv://Erlend:adminPass@erlendcluster.danzgpe.mongodb.net/");
+mongoose.connect("mongodb+srv://Erlend:adminPass@erlendcluster.danzgpe.mongodb.net/?authMechanism=DEFAULT");
 
 app.set("view engine", "ejs");
 app.use(bodyParser.json());
